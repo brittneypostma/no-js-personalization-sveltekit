@@ -3,9 +3,7 @@
 	export let data: PageData;
 </script>
 
-{data.edge}
-
-<h1>Learn About Our Products</h1>
+<h1>Learn About Our Products from {data.edge}</h1>
 <section class="products">
 	<div class="product" data-category="corgi">
 		<img
